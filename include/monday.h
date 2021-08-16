@@ -19,7 +19,7 @@ void tempC() {
 
   cout << "\nPlease enter the starting temperature: ";
   getline(cin, temp);
-  ortemp = stof(temp);
+  ortemp = stof(temp);//checks to see if the user is using a non-numeric.
 
   cout << "\nPress ‘C’ to convert from Fahrenheit to Centigrade";
   cout << "\nPress ‘F’ to convert from Centigrade to Fahrenheit.\n\n";
