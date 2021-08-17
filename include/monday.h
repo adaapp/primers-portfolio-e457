@@ -74,10 +74,7 @@ void fahrenheitCentigradeConversion(void) {
   tempCon();
 
 }
-int main()
-{ fahrenheitCentigradeConversion();
-  return 0;
-}
+
 
 
 
