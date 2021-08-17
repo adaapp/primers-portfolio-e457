@@ -9,6 +9,8 @@ To help complete this challenge I needed to break the overall problem down into 
 * Verify the data is in a suitable format
 * Create a method to convert F->C
 * Create a method to convert C->F
+* Create a method to convert K->C
+* Create a method to convert K->F
  
 #### Reflection (as well as issues, challenges & resolutions)
 The biggest issue was related to testing the areas my solution failed, originally, I tested to see if it worked - however, it wasn’t until I tried to break it that I found some of the more serious issues with my design and implementation.  For example, ...

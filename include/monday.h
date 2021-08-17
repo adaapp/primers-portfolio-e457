@@ -77,10 +77,6 @@ void fahrenheitCentigradeConversion(void) {
 
 
 
-
-
-
-
 void selfServiceCheckout(void) {
 	std::cout << " - selfServiceCheckout: not yet implemented\n\n";
 }
