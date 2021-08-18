@@ -83,7 +83,7 @@ void fahrenheitCentigradeConversion(void) {
 #include <limits>
 
 using namespace std;
-
+// This function calculates the addItem by using the subtotal, quantity, cost of item
 float addItem(float subtotal, int quantity, float itemCost) {
  return subtotal + (quantity * itemCost);
 }
@@ -93,12 +93,13 @@ bool isDigit(string value){
   //Returns false if string is not a valid number
   for(int i=0;i<value.length();i++){
     if((isdigit(value[i])==false) && (value[i] != '.')){
+      //for loop checks each character in the string e.g. a letter then retuen false and enterbthe cout question again
       return false;
     }
   }
   return true;
 }
-
+//list of variables with their most credible data types accorind to RAM
 void selfService() {
   const float shoppingTax = (5.5/100);
   float subtotal = 0;
@@ -108,28 +109,28 @@ void selfService() {
   string test;
   float itemCost = 0.0;
   float total;
-
+// while loop to continue to run a cout until zero is pressed by the user
   while(quantity > 0) {
      
-    std::cout<<"\nPlease enter the quantity for item "<<items<<" (or 0 to finish):";
+    cout<<"\nPlease enter the quantity for item "<<items<<" (or 0 to finish):";
     getline(cin >> ws ,test);
 
     if (isDigit(test)){
       quantity=stoi(test);
       if(quantity > 0) {
-        std::cout<<"Please enter item "<<items<<"’s cost:";
-        std::cin>>itemCost;
+        cout<<"Please enter item "<<items<<"’s cost:";
+        cin>>itemCost;
         items++;
         subtotal = addItem(subtotal, quantity, itemCost);
       }
     }
   }
-
+ // the total calculation only takes into consideration the subtotal and shopping tax 
   total = (subtotal * shoppingTax) + subtotal;
-  std::cout<<"Thank you.\n\n";
-  std::cout<<"Subtotal:£"<<subtotal;
-  std::cout<<"\nShopping Tax:£"<< std::fixed<<std::setprecision(2)<<shoppingTax * subtotal;
-  std::cout<<"\nTotal:£"<< std:: fixed<<std::setprecision(2)<< total<<"\n";
+  cout<<"Thank you.\n\n";
+  cout<<"Subtotal:£"<<subtotal;
+  cout<<"\nShopping Tax:£"<< fixed<<setprecision(2)<<shoppingTax * subtotal;
+  cout<<"\nTotal:£"<< fixed<<setprecision(2)<< total<<"\n";//set precision is used to round the total amount to 2 decimal places.
 }
 
 
