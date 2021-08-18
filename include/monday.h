@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+// helper functions created for different temperature conversions
 float fahtocel(float f) {
   return ((f - 32) * 5 / 9); //Fahrenheit to Centigrade.
 }
@@ -18,24 +18,24 @@ float keltofah(float b){
 return((b-273.15)*1.8 + 32);
 } //Kelvin to Fahrenheit
 
-
+// void function not returning a value to be used in the  fahrenheitCentigradeConversion(void) function
 void tempCon() {
-  string temp;
-  string label;
-  float originTemp = 0.0;//original starting temperature from the user
+  string temp;// converted temperature
+  string label;// the temerature name will change depending on the user input
+  float originTemp = 0.0;//original starting temperature from the user input
   float t = 0.0;//Converted temperature
 
   cout << "\nPlease enter the starting temperature: ";
-  getline(cin, temp);
-  originTemp = stof(temp);//checks to see if the user is using a non-numeric- string to float
+  getline(cin, temp);//getline() function reads a line of text. It takes cin as the first parameter, and the string temp variable as the second parameter
+  originTemp = stof(temp);//restriction checks to see if the user is using a non-numeric- string to float
 
-   //User input 
+   //User input to press a particular keyboard character for the conversion to occur
   cout << "\nPress ‘C’ to convert from Fahrenheit to Centigrade";
   cout << "\nPress ‘F’ to convert from Centigrade to Fahrenheit.";
   cout << "\nPress ‘A’ to convert from Kelvin to Centigrade.";
   cout << "\nPress ‘B’ to convert from Kelvin to Fahrenheit.";
 
-
+// create a while loop to display "your choice" to the user
   bool promptUser = true;
   while(promptUser == true){
     cout << "\nYour choice: ";
