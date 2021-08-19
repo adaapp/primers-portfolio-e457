@@ -194,13 +194,63 @@ string userInput;
 
 }
 
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <vector>
+#include <list>
+using namespace std;
+
+
+void removeEmployeeName()
+{
+  int nameCount = 5; //To keep track of the user input for names
+	const int n = 5;//the array has 5 values
+	bool found = false;
+	string arrayNames[n] = {"John Smith", "Jaelynn Stuart","Kaley Barajas","Walter Collier","Cale Myers"}; //the store of the names
+	list<string> v(arrayNames, arrayNames+n);
+	list<string>::iterator it;
+  while(v.size()>0){
+  cout<<"\n\nThere are "<<v.size()<<" employees: "<<endl;
+
+    
+ 	for(it = v.begin(); it != v.end(); it++)
+ 	{
+	
+	cout<<"\n"<<*it;
+	
+ 	}
+    
+    
+  cout <<endl;
+	string removeName;
+	cout<<"\nEnter an employee name to remove: ";
+	getline(cin, removeName);
+	
+     
+  for(it = v.begin(); it != v.end(); it++)
+ 	{
+	
+	if(*it==removeName){
+	    found = true;
+	}
+
+ 	} 
+
+ v.remove(removeName);
+	if(found == false){
+	    cout<<"\nThe name entered needs to have a capital letter for the first and last name.";
+	    cout<<"\n\nPlease enter the name again: ";
+	}
 
 
 
-
-
-
-
+}
+cout<<"\nThere are no names to delete in the database."<<endl;
+cout<<"\nThank-you.";
+}
 void employeeListRemoval(void) {
-	std::cout << " - employeeListRemoval: not yet implemented\n\n";
+
+  removeEmployeeName();
+	
 }
