@@ -56,12 +56,67 @@ phoneCollegeDirectory();
 
 }
 
+#include <iostream>
+#include <fstream>
+#include <sys/stat.h>
+#include <sstream>
+#include <vector>
+#include <iomanip>
+using namespace std;
 
 
 
+void checkSalary()
+{
+    ifstream ip("salary.csv");
+    string firstName;
+    string initial;
+    string lastName;
+    string salary;
+    string row;
+    
+    //Length of columns
+    int len_column_1 = 7;
+    int len_column_2 = 9;
+    int len_column_3 = 6;
+    
+    //Showing column headings
+    cout<<"Initial"<<string(1,' ')
+    <<"Last"<<string(len_column_2-3,' ')
+    <<"Salary"<<endl;
 
+    //Showing column underlines
+    cout<<string(len_column_1,'-');
+    cout<<' '<<
+    string(len_column_2,'-');
+    cout<<' '<<
+    string(len_column_3,'-')
+    <<endl;
+
+
+    while(ip.good()){
+        //Get each row seperated by a new line character
+        getline(ip,row);
+        stringstream ssrow(row);
+        //Get each record seperated by a comma
+        getline(ssrow,firstName,',');
+        getline(ssrow,lastName,',');
+        getline(ssrow,salary,',');
+      
+        initial = firstName[0];
+        salary  =  "£"+salary;
+
+        cout<<initial+'.'<<string(len_column_1-1,' ')
+        <<lastName<<
+        string(len_column_2 - lastName.length()+1,' ')<<
+        salary<<"\n";
+
+    }
+    
+}
 
 
 void dataFileParser(void) {
-	std::cout << " - dataFileParser: not yet implemented\n\n";
+	checkSalary();
+
 }
