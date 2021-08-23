@@ -171,7 +171,7 @@ void passwordComplexityChecker(void) {
 	
 string userInput;
   cout << "Enter your password:";
-  cin >> userInput;
+  getline(cin,userInput);
   //helper functions commeted out used for test if inputs are contain a character, number or special character
 //   cout << weakPassword (userInput) << endl;
 //   cout << "check your input's number" << checkNo (userInput) << endl;
