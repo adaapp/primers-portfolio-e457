@@ -120,31 +120,29 @@ driven.
 ### Benefits of becoming a Polyglot Programmer
 
 
-
-
 The term ‘ polyglot programmer’ describes a person who can understand and utilise two or more programming languages. These languages can range from different programming paradigms such as imperative with Java to declarative with SQL. 
 
 Most programming languages share similar concepts. The fundamentals for most programming paradigms include variables, functions, loops, and conditions. 
-Therefore, if a programmer is confident with a particular programming language then an introduction to a different paradigm may be less complex compared to a person programming for the first time. 
+Therefore, if a programmer is confident with a particular programming language, an introduction to a different paradigm may be less complex than a person programming for the first time. 
 
 An example would be my ability to understand JavaScript and bringing this knowledge to C++, a new language I have never developed an algorithm before. 
 
-Learning a programming language comes with many benefits in terms of problem-solving, self-confidence, independence, and patience. These qualities improve the programmer inside and outside of programming in the workplace or as a hobby. During work or studies, being a polygon programmer ensures that a person can pick up terminology more easily. For example, if programmers understood the concepts of Python and JavaScript, and were introduced to Ruby. The polyglot programmer would easily adapt to the syntax and understand different concepts which are deemed similar to the two previous languages the programmer is familiar with.  
+Learning a programming language comes with many benefits in terms of problem-solving, self-confidence, independence, and patience. These qualities improve the programmer inside and outside of programming in the workplace or as a hobby. Being a 'polyglot programmer' ensures that a person can pick up terminology more easily during work or studies. For example, if programmers understood the concepts of Python and JavaScript, and were introduced to Ruby. The 'polyglot programmer' would easily adapt to the syntax and understand different concepts which are deemed similar to the two previous languages the programmer is familiar with.  
 
-Relating to the industry whether this is in DevOps or website development, the industry is changing constantly 
+Lastly, the benefits of a 'polyglot programmer' are adapting to different programming paradigms. This is significant due to the ever-changing technology industry.  
 
 
 ![barchart](https://statisticsanddata.org/wp-content/uploads/2020/10/the-top-10-most-popular-programming-languages-1024x576.jpg)
 
 
-In 2010, the most popular programming languages were Java and JavaScript. 
+In 2009, the most popular programming languages were Java and PHP. The technology industry at this time was predominately focused on website development and DevOps. For example, Facebook's back-end development is built using PHP. Hence, certain programming languages popularity at the time.
 
 
 
 ![piechart](https://i.redd.it/xpc4w785i2j61.png)
 
 
-The piechart demostrates different results compared to 2010, as Oython is deemed the most popular language. 
-Referring to the chart, Python is the most popular programming language as of 2021. In terms of the shift in industry leaning more towards data analysis and machine learning. Programming languages such as JavaScript might be less effective in the technology industry. This reasoning is evaluated through previous programming languages such as Fortran and PHP.
+However, twelve years later the popularity of certain programming languages has changed.
+Referring to the piechart, Python is the most popular programming language as of 2021. Whereas, in 2009 the language was ranked in fifth place in terms of popularity. Therefore, the shift in the technology industry leaning more towards data analysis and machine learning may have an impact on the results. Moreover, programming languages such as JavaScript and Ruby might be less effective in the future. This reasoning is evaluated through previous programming languages such as Fortran and PHP.
 
-Therefore, if a programmer is a 'polyglot programmer' then this aspect is beneficial as a 'polyglot programmer's adaptable to different programming paradigms and is likely to remain consistent in the technology industry.  
+Therefore, if a programmer is a 'polyglot programmer' then this aspect is beneficial as a 'polyglot programmer's adaptable to different programming paradigms and is likely to remain consistent in the technology industry. 
