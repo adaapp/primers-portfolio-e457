@@ -134,7 +134,7 @@ Learning a programming language comes with many benefits in terms of problem-sol
 Relating to the industry whether this is in DevOps or website development, the industry is changing constantly 
 
 
-![barchart](https://images.ctfassets.net/ehw1g7uqczev/3beiPQ0hHwsbO1aKrbY2ju/8e7361bae4ae5d6c5e63e4526b30eaad/2010_kids_java_programming_language.jpg)
+![barchart](https://statisticsanddata.org/wp-content/uploads/2020/10/the-top-10-most-popular-programming-languages-1024x576.jpg)
 
 
 In 2010, the most popular programming languages were Java and JavaScript. 
