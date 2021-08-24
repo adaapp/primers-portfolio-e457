@@ -149,16 +149,9 @@ To help complete this challenge I needed to break the overall problem down into 
 
 ### Reflection
 
-The primer challenge 
+The primer challenge strengths included reusing a particular line of code in previous primers. For example, the getline function from primer 4 was reused in this primer. The getline function meant the user can include spaces. This was ideal for the college name and the code reading from the CSV file. 
 
-
-
-The biggest challenge in this primer was the C++ code reading the file correctly. After several attempts, the problem was the whitespace in the CSV file affecting a result to display on the console the particular college name and number.
-
-
-
-
-
+The biggest challenge in this primer was the C++ code reading the file correctly. After several attempts, the problem was the whitespace in the CSV file affecting a result to display on the console the particular college name and number. Moreover, the user has to input a phone number without spaces. Otherwise, the console will produce an error. 
 
 ---
 
