@@ -10,7 +10,7 @@ For Ada's advanced programming module, the introduction of C++ and completion of
 ### Primer 1 - Fahrenheit / Centigrade Conversion
 This challenge required the user to enter a value before selecting whether to convert the number from Fahrenheit to Centigrade or Centigrade to Fahrenheit. The extension task for including Kelvin in the conversion was also incorporated. As part of the initial design, the conversion algorithms were needed for both calculations.  
 
-####To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
 * Get data from the user
 * Verify the data is in a suitable format
 * The user input has to be a float
