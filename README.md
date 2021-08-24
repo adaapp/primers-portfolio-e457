@@ -275,10 +275,11 @@ Instead of using a header file to indicate the value of PI. I hard-coded the val
 ## Section 2 - Programming Paradigms
 ### Programming Paradigms
 
- 
+ In computer programming, paradigms are based on their characterised and therefore categorised. At times, a programming language can be a part of multiple programming paradigms. 
 
+The five programming paradigms I will focus on are object-oriented, structured, declarative, imperative, and event-driven programming languages
 
-
+This analysis will include the potential strengths and weaknesses of each programming paradigm. While offering explanations for the best-suited paradigm depending on the situation.
 
 
 | Programming Paradigms     | Examples |
@@ -288,6 +289,7 @@ Instead of using a header file to indicate the value of PI. I hard-coded the val
 | Declarative      | SQL       |
 | Imperative      | C++       |
 | Event driven      | C       |
+
 
 
 
