@@ -134,5 +134,17 @@ Learning a programming language comes with many benefits in terms of problem-sol
 Relating to the industry whether this is in DevOps or website development, the industry is changing constantly 
 
 
+![barchart](https://images.ctfassets.net/ehw1g7uqczev/3beiPQ0hHwsbO1aKrbY2ju/8e7361bae4ae5d6c5e63e4526b30eaad/2010_kids_java_programming_language.jpg)
+
+
+In 2010, the most popular programming languages were Java and JavaScript. 
+
+
 
 ![piechart](https://i.redd.it/xpc4w785i2j61.png)
+
+
+The piechart demostrates different results compared to 2010, as Oython is deemed the most popular language. 
+Referring to the chart, Python is the most popular programming language as of 2021. In terms of the shift in industry leaning more towards data analysis and machine learning. Programming languages such as JavaScript might be less effective in the technology industry. This reasoning is evaluated through previous programming languages such as Fortran and PHP.
+
+Therefore, if a programmer is a 'polyglot programmer' then this aspect is beneficial as a 'polyglot programmer's adaptable to different programming paradigms and is likely to remain consistent in the technology industry.  
