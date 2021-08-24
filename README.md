@@ -36,20 +36,34 @@ Although using namespace std is not recommended, as a beginner to C++, I wanted 
 
 As std:: uses the whole standard library, this would arise the possibility for a naming conflict to occur in an upgraded C++ version.
 
-
-
-
-
+---
 
 ### Primer 2 - Self-service Checkout
+The self-service checkout primer required the user to enter the quantity of the item and then the console would prompt the user to enter the item's price. Moreover, the self-service checkout would be completed when the user enters zero. The price would total to include the shopping tax.
 
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
 
+* A while loop to repeat the question after user input 
+* The data type for the item and quantity variable
+* The item variable had to be a float to represent a price. For example, £3.99 is a float.
+* The quantity variable had to be an integer
+* The user input has to be a float
+* Create an exit condition from the loop when zero is entered
 
+The biggest challenge with primer 2 was to ensure the while loop created.
 
+include <iomanip>  //setprecision method to occur for rounding to 2 decimal places
 
 ### Primer 3 - Password complexity checker
 
 
+significance of header files in C++
+refactoring and purpose is to break the code
+check if a string contains an
+isdigit
+is alpha
+
+naming conventions for functions and variables 
 
 
 
@@ -80,9 +94,39 @@ I did not want to use PI instead I created varibale assigned to PI as I di not n
 ### Programming Paradigms
 Simply put, a programming paradigm, for example, procedural, object-oriented, functional, structured, declarative, imperative and event driven can be described as a specific approach used when trying to solve a problem.  Although many programming languages can (and do) support multiple paradigms this discussion will focus more specifically on the possible benefits with examples of the potential differences and similarities of five from the above list. These are ...
 
+well-considered outline and discussion on five of the following programming
+paradigms: procedural, object-oriented, functional, structured, declarative, imperative and event
+driven.
+
+
+| Programming Paradigm      | Example |
+| ----------- | ----------- |
+| Procedural      | Title       |
+| Object-oriented   | Text        |
+| Functional      | Title       |
+| Structured   | Text        |
+| Declarative      | Title       |
+| Imperative      | Title       |
+| Event driven      | Title       |
+
+
+
+
+
+
 ---
 ## Section 3 - Continued Professional Development
-### Benefits of becoming a Polyglot Programmer
-Vestibulum vitae semper sem. Duis leo leo, suscipit at felis non, pellentesque varius massa. Sed sit amet orci nibh. Morbi scelerisque faucibus elit, vitae mollis turpis finibus eget. In convallis euismod nunc non imperdiet. Duis ultricies pulvinar lorem, sed molestie nunc porta at. Aenean arcu ante, efficitur nec felis sed, feugiat iaculis turpis. Vestibulum eu elementum diam. Quisque nec tortor auctor, scelerisque ante vitae, fringilla tellus.
 
-Quisque ligula lectus, efficitur quis malesuada sit amet, malesuada sed nibh. In lorem erat, elementum quis tempus nec, rhoncus ac ante. Mauris suscipit massa tempor, pulvinar neque vel, gravida nulla. Donec massa diam, molestie in diam nec, vulputate faucibus ligula. Aliquam erat volutpat. Aliquam sit amet dui ligula. Nullam euismod eros ultrices magna convallis lobortis. Proin convallis placerat tincidunt. Quisque interdum, nisi id egestas luctus, augue libero lacinia urna, sit amet tempus nisl sem nec quam. Vestibulum interdum urna mauris, vel dignissim nisi dignissim egestas. Donec volutpat dictum dui, at egestas sem tristique nec.
+### Benefits of becoming a Polyglot Programmer
+
+
+
+
+The term ‘ polyglot programmer’ describes a person who can understand and utilise two or more programming languages. These languages can range from different programming paradigms such as imperative with Java to declarative with SQL. 
+
+Most programming languages share similar concepts. The fundamentals for most programming paradigms include variables, functions, loops, and conditions. 
+Therefore, if a programmer is confident with a particular programming language then an introduction to a different paradigm may be less complex compared to a person programming for the first time. 
+
+An example would be my ability to understand JavaScript and bringing this knowledge to C++, a new language I have never developed an algorithm before. 
+
+Learning a programming language comes with many benefits in terms of problem-solving, self-confidence, independence, and patience. These qualities improve the programmer inside and outside of programming in the workplace or as a hobby. During work or studies, being a polygon programmer ensures that a person can pick up terminology more easily. For example, if programmers understood the concepts of Python and JavaScript, and were introduced to Ruby. The polyglot programmer would easily adapt to the syntax and understand different concepts which are deemed similar to the two previous languages the programmer is familiar with.  
