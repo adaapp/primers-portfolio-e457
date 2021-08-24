@@ -101,13 +101,13 @@ driven.
 
 | Programming Paradigm      | Example |
 | ----------- | ----------- |
-| Procedural      | Title       |
-| Object-oriented   | Text        |
-| Functional      | Title       |
-| Structured   | Text        |
-| Declarative      | Title       |
-| Imperative      | Title       |
-| Event driven      | Title       |
+| Procedural      | Fortran       |
+| Object-oriented   | Java        |
+| Functional      | Haskell       |
+| Structured   | C#        |
+| Declarative      | SQL       |
+| Imperative      | C++       |
+| Event driven      | C       |
 
 
 
