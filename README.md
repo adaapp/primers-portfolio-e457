@@ -191,7 +191,7 @@ To help complete this challenge I needed to break the overall problem down into 
 
 ### Reflection
 
-The challenge was a great introduction to multi-threading. The primer was executed more simply compared to the other primer challenges. The sleep timer demonstrated more significance in multi-threading and the fast execution displayed in the console. 
+The challenge was a great introduction to multi-threading. The primer was executed more simply compared to the other primer challenges.This was due to the primer producing an output from the thread and no user input was required. The sleep timer demonstrated more significance in multi-threading and the fast execution displayed in the console. 
 
 ---
 
