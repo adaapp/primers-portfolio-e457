@@ -241,12 +241,36 @@ However, after installing conditions to the functions of the car lock. The user 
 ---
 
 ### Primer 10 - Area of
+
+The final primer challenge included creating a class, incorporating an overloaded function and a delimiter to calculate three specific shape types. The shape types calculated the area of a triangle, circle, and trapezoid. 
+
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+
+* Create an overloaded method and pass parameters 
+* The parameters can only hold a certain number e.g. an two overloaded functions cannot hold two parameters.
+* Instead two overloaded fucntions can hold one parameter, and the second overloaded function can hold two parameters.
+* Include a delimiter ~
+* Once the three shapes area have been displayed in the console, the delimiter would indicate the end of the class. 
+
+
 ### Reflection
-I did not want to use PI instead I created varibale assigned to PI as I di not need to include a library. 
 
+The biggest challenge was the overloaded function as I first picked to calculate the area of a rectangle, triangle, and circle. The area of a circle was less complex as only one parameter is passed to the overloaded function. This is the radius. However, the area calculation of a rectangle and triangle incorporates two parameters to be passed to the overloaded function. For example :
 
+Area of a rectangle:
+* A = L X W
+* floatsize(para x, para y)
 
+Area of a triangle:
+* A = (B X H) / 2
+* floatsize(para q, para w)
+
+The floatsize function would both have two parameters. Therefore, confusion would occur if two parameters are passed through as the program does not know which parameter to execute.
+
+The positives of the challenge was the indication of not using a header file called 
+#include<cmath>.
+Instead of using a header file to indicate the value of PI. I hard-coded the value of 3.1415 as a float variable.
+ 
 ---
 ## Section 2 - Programming Paradigms
 ### Programming Paradigms
@@ -306,7 +330,7 @@ In 2009, the most popular programming languages were Java and PHP. The technolog
 (Piechart showing 2021's most popular programming languages, n.d.)
 
 However, twelve years later the popularity of certain programming languages has changed.
-Referring to the piechart, Python is the most popular programming language as of 2021. Whereas, in 2009 the language was ranked in fifth place in terms of popularity. Therefore, the shift in the technology industry leaning more towards data analysis and machine learning may have an impact on the results. Moreover, programming languages such as JavaScript and Ruby might be less effective in the future. This reasoning is evaluated through previous programming languages such as Fortran and PHP.
+Referring to the piechart, Python is the most popular programming language as of 2021. Whereas, in 2009 the language was ranked in fifth place in terms of popularity. Therefore, the shift in the technology industry leaning more towards data analysis and machine learning may have an impact on the results. Moreover, programming languages such as JavaScript and Ruby might be less effective in the future. This reasoning is evaluated through previous programming languages such as Fortran and COBOL.
 
 Therefore, if a programmer is a 'polyglot programmer' then this aspect is beneficial as a 'polyglot programmer's adaptable to different programming paradigms and is likely to remain consistent in the technology industry. 
 
