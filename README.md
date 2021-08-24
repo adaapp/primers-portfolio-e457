@@ -130,3 +130,9 @@ Therefore, if a programmer is confident with a particular programming language t
 An example would be my ability to understand JavaScript and bringing this knowledge to C++, a new language I have never developed an algorithm before. 
 
 Learning a programming language comes with many benefits in terms of problem-solving, self-confidence, independence, and patience. These qualities improve the programmer inside and outside of programming in the workplace or as a hobby. During work or studies, being a polygon programmer ensures that a person can pick up terminology more easily. For example, if programmers understood the concepts of Python and JavaScript, and were introduced to Ruby. The polyglot programmer would easily adapt to the syntax and understand different concepts which are deemed similar to the two previous languages the programmer is familiar with.  
+
+Relating to the industry whether this is in DevOps or website development, the industry is changing constantly 
+
+
+
+![piechart](https://i.redd.it/xpc4w785i2j61.png)
