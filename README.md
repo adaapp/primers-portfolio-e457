@@ -129,16 +129,11 @@ The strength in this primer challenge was the level of understanding to use a fo
 
 The biggest challenge was the constraints in the user input. For example, if the user inputted the name in a lower case or misspelled the name, The console had to cout : 'Please enter the name again' or "The name entered needs to have a capital letter for the first and last name."  
 
-
-
 ---
 
 ### Primer 5 - Phone directory
 
-
-
-
-
+The phone directory primer included the C++ code to read a CSV file and prompt the user to enter a college name or phone number. The console would display the amount of records that are being searched. Then display in the console a matched college name and number. 
 
 
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
@@ -149,12 +144,16 @@ To help complete this challenge I needed to break the overall problem down into 
 * Get search from user
 * Read line
 * Compare to the user input
-* If there is a match display in the console
+* If there is a match display the college name and number in the console
 * Close the file
 
 ### Reflection
 
-The biggest challenge in this primer was the C++ reading the file correctly. After several attempts, the problem was the whitespace in the CSV file affecting a result to display on the console the particular college name or college number.
+The primer challenge 
+
+
+
+The biggest challenge in this primer was the C++ code reading the file correctly. After several attempts, the problem was the whitespace in the CSV file affecting a result to display on the console the particular college name and number.
 
 
 
