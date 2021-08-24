@@ -8,6 +8,7 @@ For Ada's advanced programming module, the introduction of C++ and completion of
 
 
 ### Primer 1 - Fahrenheit / Centigrade Conversion
+
 This challenge required the user to enter a value before selecting whether to convert the number from Fahrenheit to Centigrade or Centigrade to Fahrenheit. The extension task for including Kelvin in the conversion was also incorporated. As part of the initial design, the conversion algorithms were needed for both calculations.  
 
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
@@ -39,6 +40,7 @@ As std:: uses the whole standard library, this would arise the possibility for a
 ---
 
 ### Primer 2 - Self-service Checkout
+
 The self-service checkout primer required the user to enter the quantity of the item and then the console would further prompt the user to enter the item's price. Moreover, the self-service checkout would be completed when the user enters zero. The price would total to include the shopping tax.
 
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
@@ -99,38 +101,104 @@ To help complete this challenge I needed to break the overall problem down into 
 
 The strength was to break the code by inputting different passwords to test the functionality of the user input password. The first step I took was to check if the string contained a special character, alphabet, number. This was implemented with regex. I used regex as I did not hard code all due to code refactoring. Moreover, functions such as isdigit and isalpha were useful to determine if a character was a numeric value or an alphabet value. 
 
-At first, the code did break, as the input of a very strong password kept resulting in a moderate password outcome. Therefore, this was down to the conditions in the moderate password function. For example, if I entered a special character,8 characters, 2 numeric, and 4 alphabetic values. The console would display 'moderate password'. From further testing, the moderate password function was missing a condition to check if the password entered equals to false. This line was code was added to the if condition statement (veryStrongPassword(userInput)==false).
+At first, the code did break, as the input of a very strong password kept resulting in a moderate password outcome. Therefore, this was down to the conditions in the moderate password function. For example, if I entered a special character,8 characters, 2 numeric, and 4 alphabetic values. The console would display 'moderate password'. From further testing, the moderate password function was missing a condition to check if the password entered equals to false in terms of the veryStrongPassword function. This line was code was added to the moderate password if condition statement (veryStrongPassword(userInput)==false).
 
+Once this was changed, when the user would input a very strong password the console would display 'The password ‘Password2021!’ is Very Strong'.
 
 ---
 
 
 ### Primer 4 - Employee list removal
+
+The employee list removal primer would display a list of employee names. The user is then prompted to enter an
+employee's name. The console will then display the remaining names.
+
+
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+
+* C++ arrays are static, cannot be implemented
+* Place the names into a variable
+* The for loop needs to repeat the list of employees
+* Implement the for loop to display deleted names
+* getline to include the first name, space, and last name of the user input
+
+
+### Reflection
+
+The strength in this primer challenge was the 
+
+
+
+The biggest challenge was the constraints in the user input. For example, if the user inputted the name in a lower case or misspelled the name, The console had to cout : 'Please enter the name again' or "The name entered needs to have a capital letter for the first and last name."  
+
+
+
 ---
 
 ### Primer 5 - Phone directory
 
+
+
+
+
+
+
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+
+* Create a CSV file with college names and numbers
+* Open the file
+* User inputs the college name or college number
+* get search from user
+* read line
+* parse line - into bit (name, no)
+* compare to search
+* if match 'show'
+* if not goto 3
+* Close the file
+
+### Reflection
+
+The biggest challenge in this primer was the C++ reading the file correctly. After several attempts, the problem was the whitespace in the CSV file affecting a result to display on the console the particular college name or college number.
+
+
+
+
+
+
 ---
 
 ### Primer 6 - Data file parser
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+### Reflection
+
 
 ---
 
 ### Primer 7 - Sleep timer
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+### Reflection
+
 
 ---
 
 
 ### Primer 8 - Joining & Detaching threads
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+### Reflection
+
 
 ---
 
 ### Primer 9 - Car class
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+### Reflection
+
 
 ---
 
 ### Primer 10 - Area of
-
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+### Reflection
 I did not want to use PI instead I created varibale assigned to PI as I di not need to include a library. 
 
 
@@ -140,6 +208,9 @@ I did not want to use PI instead I created varibale assigned to PI as I di not n
 ### Programming Paradigms
 
  
+
+
+
 
 
 | Programming Paradigms     | Examples |
