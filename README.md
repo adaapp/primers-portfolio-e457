@@ -191,14 +191,14 @@ To help complete this challenge I needed to break the overall problem down into 
 
 ### Reflection
 
-The challenge was a great introduction to multi-threading. The primer was executed more simply compared to the other primer challenges.This was due to the primer producing an output from the thread and no user input was required. The sleep timer demonstrated more significance in multi-threading and the fast execution displayed in the console. 
+The challenge was a great introduction to multi-threading. The primer was executed more simply compared to the other primer challenges. This was due to the primer producing an output from the thread and no user input was required. The sleep timer demonstrated more significance in multi-threading and the fast execution displayed in the console. 
 
 ---
 
 
 ### Primer 8 - Joining & Detaching threads
 
-This challenge was a follow up from primer 7 and includes joining and detaching threads.
+This challenge was a follow-up from primer 7 and includes joining and detaching threads.
 
 
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
@@ -212,13 +212,31 @@ To help complete this challenge I needed to break the overall problem down into 
 
 The challenge with primer 8 was with the second thread not ending. This was tested several times with the code. The problem was later resolved and the addition of changing the sleep time parameter to 11 instead of 10. 
 
-However, the join and detach function worked on the third runtine attempt. 
+However, the join and detach function worked on the third runtime attempt. 
+
 ---
 
 ### Primer 9 - Car class
+
+The challenge introduced classes and incorporated the example of a car. The class had to showcase the properties of the car. This included the engine turned on or off and whether the car was locked or unlocked. These features had to be determined through user input of numbers one to four. 
+
+
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+
+* Compulsory parameters to describe the car's make and colour - if not provided by the user
+* User input of 1 should turn the engine on
+* User input of 2 should turn the engine off
+* User input of 3 should lock the car
+* User input of 4 should unlock the car
+* While loop to repeat "Please select an option (or 0 to finish):"
+* If the user inputs 0, break the loop 
+
+
 ### Reflection
 
+The biggest challenge was the number of factors to decompose. The class had to incorporate the features of the engine and car lock. At first, the functionality was displaying the wrong information in the console. This was due to user input constraints not in place such as entering the number 4 and the console would display the car was locked.
+
+However, after installing conditions to the functions of the car lock. The user input was producing the correct answer. 
 
 ---
 
