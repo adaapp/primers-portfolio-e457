@@ -125,8 +125,7 @@ To help complete this challenge I needed to break the overall problem down into 
 
 ### Reflection
 
-The strength in this primer challenge was the level of understanding the implementation of using a for a loop. Since the conditions were known beforehand into the number of names in the database. 
-
+The strength in this primer challenge was the level of understanding to use a for loop. Since the conditions were known beforehand into the number of names in the database. In this case, only five names were in the database. 
 
 The biggest challenge was the constraints in the user input. For example, if the user inputted the name in a lower case or misspelled the name, The console had to cout : 'Please enter the name again' or "The name entered needs to have a capital letter for the first and last name."  
 
