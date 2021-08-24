@@ -179,7 +179,7 @@ The biggest challenge with the data file parser primer was the spacing between t
 
 ### Primer 7 - Sleep timer
 
-The sleep timer primer included the introduction to multi-threading. This technique is used in C++ to run programs at the same time instead of running a program one at a time. The purpose is to increase the programs time execution. 
+The sleep timer primer included the introduction to multi-threading. This technique is used in C++11 and later versions to run programs at the same time instead of running a program one at a time. The purpose is to increase the programs time execution. 
 
 
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
@@ -197,8 +197,25 @@ The challenge was a great introduction to multi-threading. The primer was execut
 
 
 ### Primer 8 - Joining & Detaching threads
+
+This challenge was a follow up from primer 7 and includes joining and detaching threads.
+
+
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+
+* The join function returns when the thread execution has completed.
+* The detach function separates the thread of execution from a thread object
+* The detach function executes to run the thread independently. 
+
+
 ### Reflection
+
+The challenge with primer 8 was 
+
+
+
+
+
 
 
 ---
