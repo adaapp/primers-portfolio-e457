@@ -156,9 +156,24 @@ The biggest challenge in this primer was the C++ code reading the file correctly
 ---
 
 ### Primer 6 - Data file parser
+
+This challenge required the C++ code to read the first name, last name, and salary following the CSV file. Then the data with the code needs to contain structure in the form of a grid and the first name to display an initial. 
+
+
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+
+* Open the CSV file
+* Spacing between columns is aligned evenly following the example output
+* The first name can only display an initial
+* created variable to initialise the length of the column 
+* Close the CSV file
+
 ### Reflection
 
+The primer produced the result of a grid displaying the initial name, last name, and salary from the CSV file. The headings are aligned. 
+
+
+The biggest challenge with the data file parser primer was the spacing between the columns. Although, the result is aligned with the column headings. The last column has not been executed with the example output. Moreover, the CSV file contains commas separating the three different types of information (first name, last name, and salary). This required reusing the getline function from primer 4 and 5 implemented into the while loop. This was the way to display the information from the file and later closing the file. 
 
 ---
 
