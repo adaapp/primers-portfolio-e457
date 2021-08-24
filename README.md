@@ -210,14 +210,9 @@ To help complete this challenge I needed to break the overall problem down into 
 
 ### Reflection
 
-The challenge with primer 8 was 
+The challenge with primer 8 was with the second thread not ending. This was tested several times with the code. The problem was later resolved and the addition of changing the sleep time parameter to 11 instead of 10. 
 
-
-
-
-
-
-
+However, the join and detach function worked on the third runtine attempt. 
 ---
 
 ### Primer 9 - Car class
