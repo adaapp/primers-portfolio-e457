@@ -39,7 +39,7 @@ As std:: uses the whole standard library, this would arise the possibility for a
 ---
 
 ### Primer 2 - Self-service Checkout
-The self-service checkout primer required the user to enter the quantity of the item and then the console would prompt the user to enter the item's price. Moreover, the self-service checkout would be completed when the user enters zero. The price would total to include the shopping tax.
+The self-service checkout primer required the user to enter the quantity of the item and then the console would further prompt the user to enter the item's price. Moreover, the self-service checkout would be completed when the user enters zero. The price would total to include the shopping tax.
 
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
 
@@ -49,13 +49,25 @@ To help complete this challenge I needed to break the overall problem down into 
 * The quantity variable had to be an integer
 * The user input has to be a float
 * Create an exit condition from the loop when zero is entered
+* Addition of shopping tax and the total
+* Round the subtotal to two decimal places
 
-The biggest challenge with primer 2 was to ensure the while loop created.
 
-include <iomanip>  //setprecision method to occur for rounding to 2 decimal places
+### Reflection
+
+The biggest challenge with primer 2 was to ensure the while loop conditions were correct according to the user's input. For example, the while loop had to have the quantity < 0 conditon. This was due to the quantity declared as a variable set to 1. Therefore, the iteration would occur in the program and produce the prompt questions to the user. From there on, I had to ensure to break the loop once the user entered the integer zero to the console. 
+
+However, the while loop produced less runtime bugs once the while loop was further developed. Moreover, an additon to the code was the header file. In C++, one header file to add was the include <iomanip>. As a result, the method of setprecision could now round the subtotal to 2 decimal places. 
+
+---
+
 
 ### Primer 3 - Password complexity checker
 
+
+To help complete this challenge I needed to break the overall problem down into the following main tasks: 
+
+* A while loop to repeat the question after user input 
 
 significance of header files in C++
 refactoring and purpose is to break the code
@@ -63,25 +75,35 @@ check if a string contains an
 isdigit
 is alpha
 
+
 naming conventions for functions and variables 
 
+---
 
 
 ### Primer 4 - Employee list removal
+---
 
 ### Primer 5 - Phone directory
 
+---
 
 ### Primer 6 - Data file parser
 
+---
 
 ### Primer 7 - Sleep timer
 
+---
 
 
 ### Primer 8 - Joining & Detaching threads
 
+---
+
 ### Primer 9 - Car class
+
+---
 
 ### Primer 10 - Area of
 
@@ -92,18 +114,13 @@ I did not want to use PI instead I created varibale assigned to PI as I di not n
 ---
 ## Section 2 - Programming Paradigms
 ### Programming Paradigms
-Simply put, a programming paradigm, for example, procedural, object-oriented, functional, structured, declarative, imperative and event driven can be described as a specific approach used when trying to solve a problem.  Although many programming languages can (and do) support multiple paradigms this discussion will focus more specifically on the possible benefits with examples of the potential differences and similarities of five from the above list. These are ...
 
-well-considered outline and discussion on five of the following programming
-paradigms: procedural, object-oriented, functional, structured, declarative, imperative and event
-driven.
+ 
 
 
-| Programming Paradigm      | Example |
+| Programming Paradigms     | Examples |
 | ----------- | ----------- |
-| Procedural      | Fortran       |
 | Object-oriented   | Java        |
-| Functional      | Haskell       |
 | Structured   | C#        |
 | Declarative      | SQL       |
 | Imperative      | C++       |
@@ -134,12 +151,11 @@ An example would be my ability to understand JavaScript and bringing this knowle
 Learning a programming language comes with many benefits in terms of problem-solving, self-confidence, independence, and patience. These qualities improve the programmer inside and outside of programming in the workplace or as a hobby. Being a 'polyglot programmer' ensures that a person can pick up terminology more easily during work or studies. For example, if programmers understood the concepts of Python and JavaScript, and were introduced to Ruby. The 'polyglot programmer' would easily adapt to the syntax and understand different concepts which are deemed similar to the two previous languages the programmer is familiar with. Furthermore, there is research evidence based on bilingual children and their ability to outperform children who speak only one language in problem-solving(BBC,2012). Although, this research applies to non-programming languages,the same theory can apply to 'polyglot programmers'. Therefore, a programmer who has the ability to understand more than two programming languages has the ability to filter and focus on important information. As a result, the programmer is better at problem-solving and this can increase their self-confidence in writing and reusing code.  
 
 
-
-
 Lastly, the benefits of a 'polyglot programmer' are adapting to different programming paradigms. This is significant due to the ever-changing technology industry.  
 
 
 ![barchart](https://statisticsanddata.org/wp-content/uploads/2020/10/the-top-10-most-popular-programming-languages-1024x576.jpg)
+(Barchart showing 2009's most popular programming languages, n.d.)
 
 
 In 2009, the most popular programming languages were Java and PHP. The technology industry at this time was predominately focused on website development and DevOps. For example, Facebook's back-end development is built using PHP. Hence, certain programming languages popularity at the time.
@@ -147,7 +163,7 @@ In 2009, the most popular programming languages were Java and PHP. The technolog
 
 
 ![piechart](https://i.redd.it/xpc4w785i2j61.png)
-
+(Piechart showing 2021's most popular programming languages, n.d.)
 
 However, twelve years later the popularity of certain programming languages has changed.
 Referring to the piechart, Python is the most popular programming language as of 2021. Whereas, in 2009 the language was ranked in fifth place in terms of popularity. Therefore, the shift in the technology industry leaning more towards data analysis and machine learning may have an impact on the results. Moreover, programming languages such as JavaScript and Ruby might be less effective in the future. This reasoning is evaluated through previous programming languages such as Fortran and PHP.
@@ -157,7 +173,7 @@ Therefore, if a programmer is a 'polyglot programmer' then this aspect is benefi
 
 References
 
-1. BBC(2012) Bilingual children 'better at problem-solving skills'[Online]. Available at https://www.bbc.co.uk/news/uk-scotland-glasgow-west-19109883 (Accessed 24 August 2021).
+1. BBC(2012) Bilingual children 'better at problem-solving skills' [Online]. Available at https://www.bbc.co.uk/news/uk-scotland-glasgow-west-19109883 (Accessed 24 August 2021).
 
 2. [Barchart showing 2009's most popular programming languages] (n.d.) [Online]. https://statisticsanddata.org/wp-content/uploads/2020/10/the-top-10-most-popular-programming-languages-1024x576.jpg(Accessed 24 August 2021).
 
