@@ -114,6 +114,10 @@ driven.
 
 
 
+
+
+
+
 ---
 ## Section 3 - Continued Professional Development
 
@@ -127,7 +131,10 @@ Therefore, if a programmer is confident with a particular programming language, 
 
 An example would be my ability to understand JavaScript and bringing this knowledge to C++, a new language I have never developed an algorithm before. 
 
-Learning a programming language comes with many benefits in terms of problem-solving, self-confidence, independence, and patience. These qualities improve the programmer inside and outside of programming in the workplace or as a hobby. Being a 'polyglot programmer' ensures that a person can pick up terminology more easily during work or studies. For example, if programmers understood the concepts of Python and JavaScript, and were introduced to Ruby. The 'polyglot programmer' would easily adapt to the syntax and understand different concepts which are deemed similar to the two previous languages the programmer is familiar with.  
+Learning a programming language comes with many benefits in terms of problem-solving, self-confidence, independence, and patience. These qualities improve the programmer inside and outside of programming in the workplace or as a hobby. Being a 'polyglot programmer' ensures that a person can pick up terminology more easily during work or studies. For example, if programmers understood the concepts of Python and JavaScript, and were introduced to Ruby. The 'polyglot programmer' would easily adapt to the syntax and understand different concepts which are deemed similar to the two previous languages the programmer is familiar with. Furthermore, there is research evidence based on bilingual children and their ability to outperform children who speak only one language in problem-solving(BBC,2012). Although, this research applies to non-programming languages,the same theory can apply to 'polyglot programmers'. Therefore, a programmer who has the ability to understand more than two programming languages has the ability to filter and focus on important information. As a result, the programmer is better at problem-solving and this can increase their self-confidence in writing and reusing code.  
+
+
+
 
 Lastly, the benefits of a 'polyglot programmer' are adapting to different programming paradigms. This is significant due to the ever-changing technology industry.  
 
@@ -146,3 +153,12 @@ However, twelve years later the popularity of certain programming languages has 
 Referring to the piechart, Python is the most popular programming language as of 2021. Whereas, in 2009 the language was ranked in fifth place in terms of popularity. Therefore, the shift in the technology industry leaning more towards data analysis and machine learning may have an impact on the results. Moreover, programming languages such as JavaScript and Ruby might be less effective in the future. This reasoning is evaluated through previous programming languages such as Fortran and PHP.
 
 Therefore, if a programmer is a 'polyglot programmer' then this aspect is beneficial as a 'polyglot programmer's adaptable to different programming paradigms and is likely to remain consistent in the technology industry. 
+
+
+References
+
+1. BBC(2012) Bilingual children 'better at problem-solving skills'[Online]. Available at https://www.bbc.co.uk/news/uk-scotland-glasgow-west-19109883 (Accessed 24 August 2021).
+
+2. [Barchart showing 2009's most popular programming languages] (n.d.) [Online]. https://statisticsanddata.org/wp-content/uploads/2020/10/the-top-10-most-popular-programming-languages-1024x576.jpg(Accessed 24 August 2021).
+
+3. [Piechart showing 2021's most popular programming languages] (n.d.) [Online]. Available at https://i.redd.it/xpc4w785i2j61.png (Accessed 24 August 2021).
