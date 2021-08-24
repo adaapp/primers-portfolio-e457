@@ -23,12 +23,12 @@ To help complete this challenge I needed to break the overall problem down into 
  
 ### Reflection (as well as issues, challenges & resolutions)
 
-The layout of the primer took into evaluation the steps of the example output. The layout included a precision of words outputted to the console and correct temperature conversions. Furthermore, the conversions calculations were contained inside a function with parameters of the desired value a user would input and a calculation would occur in that particular function. During refactoring, four functions for temperature conversions were created to improve the clarity of the code. As previous code revisions , included one function for a Fahrenheit conversion and the other for a Centigrade conversion. However, this made the code less easy to read and caused further bugs to develop. Therefore, further functions made the C++ code more effective due to less runtime bugs. 
+The layout of the primer took into evaluation the steps of the example output. The layout included a precision of words outputted to the console and correct temperature conversions. Furthermore, the conversions calculations were contained inside a function with parameters of the desired value a user would input and a calculation would occur in that particular function. During refactoring, four functions for temperature conversions were created to improve the clarity of the code. As previous code revisions, included one function for a Fahrenheit conversion and the other for a Centigrade conversion. However, this made the code less easy to read and caused further bugs to develop. Therefore, further functions made the C++ code more effective due to fewer runtime bugs. 
 
 The biggest issue related to testing the areas my solution failed. I tested to see if it worked - however, it wasn’t until I tried to break it that I found some issues with my pseudocode implementation. For example, the user input variable had to a data type called float. This data type can hold in memory 4 bytes of data in regards to a decimal. However, if a user entered a string, the console would display an error. As a result, the method of stof() was added to the code. This method was effective as the user could not enter a string. As a result, the console instructed the user to enter a correct value. 
 
 
-Although using namespace std is not recommended, as a beginner to C++, I wanted to focus on the fundamentals of loops, functions and variables conventions. For future reference, the using namespace with will be removed in later practice and assigned with :
+Although using namespace std is not recommended, as a beginner to C++, I wanted to focus on the fundamentals of loops, functions, and variables conventions. For future reference, the using namespace with will be removed in later practice and assigned with :
 
 * using std:: cout; 
 * std:: cin;
@@ -55,9 +55,9 @@ To help complete this challenge I needed to break the overall problem down into 
 
 ### Reflection
 
-The biggest challenge with primer 2 was to ensure the while loop conditions were correct according to the user's input. For example, the while loop had to have the quantity < 0 conditon. This was due to the quantity declared as a variable set to 1. Therefore, the iteration would occur in the program and produce the prompt questions to the user. From there on, I had to ensure to break the loop once the user entered the integer zero to the console. 
+The biggest challenge with primer 2 was to ensure the while loop conditions were correct according to the user's input. For example, the while loop had to have the quantity < 0 conditions. This was due to the quantity declared as a variable set to 1. Therefore, the iteration would occur in the program and produce prompt questions to the user. From there on, I had to ensure to break the loop once the user entered the integer zero to the console. 
 
-However, the while loop produced less runtime bugs once the while loop was further developed. Moreover, an additon to the code was the header file. In C++, one header file to add was the include <iomanip>. As a result, the method of setprecision could now round the subtotal to 2 decimal places. 
+However, the while loop produced fewer runtime bugs once the while loop was further developed. Moreover, an addition to the code was the header file. In C++, one header file to add was the include <iomanip>. As a result, the method of setprecision could now round the subtotal to 2 decimal places. 
 
 ---
 
@@ -65,18 +65,42 @@ However, the while loop produced less runtime bugs once the while loop was furth
 ### Primer 3 - Password complexity checker
 
 
+The password complexity checker primer required the user to type a password into the console. The console would then display the complexity of that particular password.
+
+The complexity levels included :
+
+* Weak
+* Moderate
+* Strong
+* Very strong
+
+Each password complexity was accustomed to particular rules such as :
+
+* Weak password - only numeric or only alphabetic characters.
+
+* Moderate password - at least 4 characters and is not ‘Weak’, ‘Strong’ or ‘Very Strong’.
+
+* Strong password - at least 8 characters; including at least 2 numeric and at least 4 alphabetic.
+
+* Very strong password - at least 8 characters; including at least 2 numeric, at least 4    alphabetic, and 1 special. 
+
+
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
 
-* A while loop to repeat the question after user input 
+* Create a function that accepts a password as a passed argument and returns the value; do not return a string
+* Check if a string contains a digit
+* Check if a string contains a character 
+* Check if a string contains a special character
+* Create different functions with if conditions to compare a user input password 
+ 
 
-significance of header files in C++
-refactoring and purpose is to break the code
-check if a string contains an
-isdigit
-is alpha
 
+### Reflection
 
-naming conventions for functions and variables 
+The strength was to break the code by inputting different passwords to test the functionality of the user input password. The first step I took was to check if the string contained a special character, alphabet, number. This was implemented with regex. I used regex as I did not hard code all due to code refactoring. Moreover, functions such as isdigit and isalpha were useful to determine if a character was a numeric value or an alphabet value. 
+
+At first, the code did break, as the input of a very strong password kept resulting in a moderate password outcome. Therefore, this was down to the conditions in the moderate password function. For example, if I entered a special character,8 characters, 2 numeric, and 4 alphabetic values. The console would display 'moderate password'. From further testing, the moderate password function was missing a condition to check if the password entered equals to false. This line was code was added to the if condition statement (veryStrongPassword(userInput)==false).
+
 
 ---
 
@@ -163,6 +187,7 @@ In 2009, the most popular programming languages were Java and PHP. The technolog
 
 
 ![piechart](https://i.redd.it/xpc4w785i2j61.png)
+
 (Piechart showing 2021's most popular programming languages, n.d.)
 
 However, twelve years later the popularity of certain programming languages has changed.
