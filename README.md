@@ -125,8 +125,7 @@ To help complete this challenge I needed to break the overall problem down into 
 
 ### Reflection
 
-The strength in this primer challenge was the 
-
+The strength in this primer challenge was the level of understanding the implementation of using a for a loop. Since the conditions were known beforehand into the number of names in the database. 
 
 
 The biggest challenge was the constraints in the user input. For example, if the user inputted the name in a lower case or misspelled the name, The console had to cout : 'Please enter the name again' or "The name entered needs to have a capital letter for the first and last name."  
@@ -148,12 +147,10 @@ To help complete this challenge I needed to break the overall problem down into 
 * Create a CSV file with college names and numbers
 * Open the file
 * User inputs the college name or college number
-* get search from user
-* read line
-* parse line - into bit (name, no)
-* compare to search
-* if match 'show'
-* if not goto 3
+* Get search from user
+* Read line
+* Compare to the user input
+* If there is a match display in the console
 * Close the file
 
 ### Reflection
@@ -175,6 +172,10 @@ To help complete this challenge I needed to break the overall problem down into 
 ---
 
 ### Primer 7 - Sleep timer
+
+The sleep timer primer included the introduction to multi-threading. This technique is used in C++ to run functions at the same time instead of running a function one at a time. 
+
+
 To help complete this challenge I needed to break the overall problem down into the following main tasks: 
 ### Reflection
 
@@ -236,7 +237,7 @@ I did not want to use PI instead I created varibale assigned to PI as I di not n
 ### Benefits of becoming a Polyglot Programmer
 
 
-The term ‘ polyglot programmer’ describes a person who can understand and utilise two or more programming languages. These languages can range from different programming paradigms such as imperative with Java to declarative with SQL. 
+The term 'polyglot programmer' describes a person who can understand and utilise two or more programming languages. These languages can range from different programming paradigms such as imperative with Java to declarative with SQL. 
 
 Most programming languages share similar concepts. The fundamentals for most programming paradigms include variables, functions, loops, and conditions. 
 Therefore, if a programmer is confident with a particular programming language, an introduction to a different paradigm may be less complex than a person programming for the first time. 
