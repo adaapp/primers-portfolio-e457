@@ -302,10 +302,17 @@ The purpose of the class is not to write the same lines of code, but to contain 
 
 One downside is that when novice programmers learn functions and logic, the language can seem complicated. On the other hand, the body of classes, constructors, and objects may take longer to appear. Also, OOP consumes more CPU. If a program does not require a large number of classes, object-oriented programming may not be the best paradigm.
 
+###Structured programming paradigms
 
 
+Structured programming makes it easy to create programs with readable code and reusable components. An example of a structured programming paradigm would be C#.
 
 
+Structured programming encourages the division of applications into a hierarchical structure of self-contained modules or elements, which in turn can contain other similar elements. In each element, you can use relevant code blocks designed for easy reading and maintenance to further build your code. These can include case, which tests variables against a set of values; repetition, while and for, which construct loops until the conditions are met. In all structured programming languages, unconditional transfer of control or goto statements are not recommended, and sometimes they are not even available.
+
+The biggest disadvantage of structured programming is its lower execution efficiency, followed by higher memory usage. Both problems are caused by the introduction of a call to a module or process, which is then returned to the caller after the call is finished.
+
+###Declarative 
 
 
 
