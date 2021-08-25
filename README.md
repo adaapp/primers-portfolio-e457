@@ -291,7 +291,7 @@ This analysis will include the potential strengths and weaknesses of each progra
 | Event driven      | C       |
 
 
-###OOP
+### OOP
 The first programming paradigm is Object-orientated programming also known as OOP. The programming language examples include C++ and Java. The paradigm is based on the creation of a class and concept of objects. In OOP, the class is a template and the object is an instance of a class. Therefore, the paradigm is based on objects rather than functions and logic.
 
 OOP is distinguished by four distinct characteristics: abstraction, inheritance, polymorphism, and encapsulation. Simplicity is ensured by abstraction. Inheritance refers to methods and functions gaining access to the attributes of another class. Polymorphism allows programme code to have multiple meanings or functions, whereas encapsulation is the process of keeping classes private so that external code cannot modify them.
@@ -302,7 +302,7 @@ The purpose of the class is not to write the same lines of code, but to contain 
 
 One downside is that when novice programmers learn functions and logic, the language can seem complicated. On the other hand, the body of classes, constructors, and objects may take longer to appear. Also, OOP consumes more CPU. If a program does not require a large number of classes, object-oriented programming may not be the best paradigm.
 
-###Structured programming paradigm
+### Structured programming paradigm
 
 
 Structured programming makes it easy to create programs with readable code and reusable components. An example of a structured programming paradigm would be C#.
@@ -312,21 +312,21 @@ Structured programming encourages the division of applications into a hierarchic
 
 The biggest disadvantage of structured programming is its lower execution efficiency, followed by higher memory usage(Nolle,n.d). Both problems are caused by the introduction of a call to a module or process, which is then returned to the caller after the call is finished.
 
-###Declarative programming paradigm
+### Declarative programming paradigm
 
 In declarative programming, the programmer defines what the program should include. However, the programmer does not define how the code should be implemented. Moreover, the code would most likely incorporate built-in methods such as sum() and reduce() instead of using loops. This is different from the imperative programming paradigm, as the imperative paradigm sets a step-by-step instruction to come to a solution. Therefore, there are more lines of code in an imperative paradigm and an average-worse case of time complexity may occur.
 
 Most programmers may find it easier to work with such programming approaches rather than stating more lines of code for the same outcome. Another advantage of declarative programming is it reduces state side effects(Techopedia, 2020). This is due to the paradigm preferring complex constructs like higher-order functions and discouraging variables. The disadvantages of the declarative programming paradigm might be for beginner programmers may not understand built-in methods or higher-order functions. Therefore, imperative programming is most useful to beginner programmers. Due to the simplistic step-by-step prosecutes stated in a particular algorithm or programme. 
 
 
-###Imperative programming paradigm 
+### Imperative programming paradigm 
 
 In imperative programming, the programmer describes the steps to implement changes to an algorithm or programme. An example of an imperative programming paradigm is C ++. The imperative programming paradigm is often compared to the declarative programming paradigm since the imperative paradigm appears to state more details of an instruction to the computer. Therefore, an imperative programming paradigm is often used by beginners in programming. 
 
 Furthermore, an advantage of the imperative programming paradigm is that it is relatively easy to learn. Moreover, there are fewer built-in methods to solve a problem. However, a disadvantage can arise. There is more likely for bugs to occur if step-by-step instructions are taken in. More lines of code might cause more bugs to occur. Proofreading imperative code takes longer and some concepts may be not taken into consideration. 
 
 
-###Event driven programming paradigm 
+### Event driven programming paradigm 
 
 In event driven programming, the programmer defines the flow of a program execution by events. An example of an event—driven programme paradigm is C. The programmer can instruct the program to conduct the action of a mouse click. This particular programming paradigm is best suited for the creation of operating systems, GUI’s and website development. This is due to the unload of click events that need to occur to progress onto the next event in the paradigm.  Furthermore, the event driven programming paradigm accomplishes the creation of important systems such as GUI’s 
 
