@@ -302,7 +302,7 @@ The purpose of the class is not to write the same lines of code, but to contain 
 
 One downside is that when novice programmers learn functions and logic, the language can seem complicated. On the other hand, the body of classes, constructors, and objects may take longer to appear. Also, OOP consumes more CPU. If a program does not require a large number of classes, object-oriented programming may not be the best paradigm.
 
-###Structured programming paradigms
+###Structured programming paradigm
 
 
 Structured programming makes it easy to create programs with readable code and reusable components. An example of a structured programming paradigm would be C#.
@@ -310,13 +310,27 @@ Structured programming makes it easy to create programs with readable code and r
 
 Structured programming encourages the division of applications into a hierarchical structure of self-contained modules or elements, which in turn can contain other similar elements. In each element, you can use relevant code blocks designed for easy reading and maintenance to further build your code. These can include case, which tests variables against a set of values; repetition, while and for, which construct loops until the conditions are met. In all structured programming languages, unconditional transfer of control or goto statements are not recommended, and sometimes they are not even available.
 
-The biggest disadvantage of structured programming is its lower execution efficiency, followed by higher memory usage. Both problems are caused by the introduction of a call to a module or process, which is then returned to the caller after the call is finished.
+The biggest disadvantage of structured programming is its lower execution efficiency, followed by higher memory usage(Nolle,n.d). Both problems are caused by the introduction of a call to a module or process, which is then returned to the caller after the call is finished.
 
-###Declarative 
+###Declarative programming paradigm
+
+In declarative programming, the programmer defines what the program should include. However, the programmer does not define how the code should be implemented. Moreover, the code would most likely incorporate built-in methods such as sum() and reduce() instead of using loops. This is different from the imperative programming paradigm, as the imperative paradigm sets a step-by-step instruction to come to a solution. Therefore, there are more lines of code in an imperative paradigm and an average-worse case of time complexity may occur.
+
+Most programmers may find it easier to work with such programming approaches rather than stating more lines of code for the same outcome. Another advantage of declarative programming is it reduces state side effects(Techopedia, 2020). This is due to the paradigm preferring complex constructs like higher-order functions and discouraging variables. The disadvantages of the declarative programming paradigm might be for beginner programmers may not understand built-in methods or higher-order functions. Therefore, imperative programming is most useful to beginner programmers. Due to the simplistic step-by-step prosecutes stated in a particular algorithm or programme. 
 
 
+###Imperative programming paradigm 
+
+In imperative programming, the programmer describes the steps to implement changes to an algorithm or programme. An example of an imperative programming paradigm is C ++. The imperative programming paradigm is often compared to the declarative programming paradigm since the imperative paradigm appears to state more details of an instruction to the computer. Therefore, an imperative programming paradigm is often used by beginners in programming. 
+
+Furthermore, an advantage of the imperative programming paradigm is that it is relatively easy to learn. Moreover, there are fewer built-in methods to solve a problem. However, a disadvantage can arise. There is more likely for bugs to occur if step-by-step instructions are taken in. More lines of code might cause more bugs to occur. Proofreading imperative code takes longer and some concepts may be not taken into consideration. 
 
 
+###Event driven programming paradigm 
+
+In event driven programming, the programmer defines the flow of a program execution by events. An example of an event—driven programme paradigm is C. The programmer can instruct the program to conduct the action of a mouse click. This particular programming paradigm is best suited for the creation of operating systems, GUI’s and website development. This is due to the unload of click events that need to occur to progress onto the next event in the paradigm.  Furthermore, the event driven programming paradigm accomplishes the creation of important systems such as GUI’s 
+
+A disadvantage similar to the imperative programming paradigm, GUIs may be slower to load and consume the computer’s RAM. Moreover, an event driven programming paradigm is not needed in certain programming aspects. For example, completing particular algorithms such as reversing a string or calculating the sum of an array. 
 
 ---
 ## Section 3 - Continued Professional Development
@@ -357,8 +371,13 @@ Therefore, if a programmer is a 'polyglot programmer' then this aspect is benefi
 
 References
 
-1. BBC(2012) Bilingual children 'better at problem-solving skills' [Online]. Available at https://www.bbc.co.uk/news/uk-scotland-glasgow-west-19109883 (Accessed 24 August 2021).
+1. Nolle(n.d.) Structured programming(modular programming) [Online]. Available at https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming (Accessed 24 August 2021). 
 
-2. [Barchart showing 2009's most popular programming languages] (n.d.) [Online]. https://statisticsanddata.org/wp-content/uploads/2020/10/the-top-10-most-popular-programming-languages-1024x576.jpg(Accessed 24 August 2021).
+2. Techopedia(2020) Declarative Programming [Online]. Available at: https://www.techopedia.com/definition/18763/declarative-programming (Accessed 24 August 2021).
 
-3. [Piechart showing 2021's most popular programming languages] (n.d.) [Online]. Available at https://i.redd.it/xpc4w785i2j61.png (Accessed 24 August 2021).
+
+3. BBC(2012) Bilingual children 'better at problem-solving skills' [Online]. Available at:https://www.bbc.co.uk/news/uk-scotland-glasgow-west-19109883 (Accessed 24 August 2021).
+
+4. [Barchart showing 2009's most popular programming languages] (n.d.) [Online]. Available at : https://statisticsanddata.org/wp-content/uploads/2020/10/the-top-10-most-popular-programming-languages-1024x576.jpg(Accessed 24 August 2021).
+
+5. [Piechart showing 2021's most popular programming languages] (n.d.) [Online]. Available at: https://i.redd.it/xpc4w785i2j61.png (Accessed 24 August 2021).
