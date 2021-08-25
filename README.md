@@ -290,13 +290,13 @@ This analysis will include the potential strengths and weaknesses of each progra
 | Imperative      | C++       |
 | Event driven      | C       |
 
+
+###OOP
 The first programming paradigm is Object-orientated programming also known as OOP. The programming language examples include C++ and Java. The paradigm is based on the creation of a class and concept of objects. In OOP, the class is a template and the object is an instance of a class. Therefore, the paradigm is based on objects rather than functions and logic.
 
 OOP is distinguished by four distinct characteristics: abstraction, inheritance, polymorphism, and encapsulation. Simplicity is ensured by abstraction. Inheritance refers to methods and functions gaining access to the attributes of another class. Polymorphism allows programme code to have multiple meanings or functions, whereas encapsulation is the process of keeping classes private so that external code cannot modify them.
 
 The advantages of the object-orientated programming paradigm are security and re-usability. The concept of encapsulation ensures data can be hidden. Moreover, the re-usability factor occurs due to the creation of a class.
-
-The advantages of the object-oriented programming paradigm are security and reusability. The encapsulation feature ensures that data can be hidden, if necessary. Furthermore, the re-usability factor occurs as a result of the creation of a class.
 
 The purpose of the class is not to write the same lines of code, but to contain the properties and methods that the object can use. The object then assigns a value to the specific method or property to run the program. On the other hand, object-oriented programming has disadvantages.
 
